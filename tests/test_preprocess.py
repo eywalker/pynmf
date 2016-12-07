@@ -5,4 +5,4 @@ def test_dummy():
     """
     Dummy for testing testing
     """
-    assert_true(True,'Something is very wrong.')
+    assert_true(True,'This should not happen.')
