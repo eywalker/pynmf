@@ -4,3 +4,16 @@
 
 
 Non-negative matrix factorization algorithms for spike/mask inference on 2-photon recordings.
+
+## Installation
+You can install the latest stable release using `pip3`:
+
+```bash
+$ pip3 install pynmf
+```
+
+You can install the bleeding-edge edition - as available on GitHub repository `master` branch as follows:
+
+```bash
+$ pip3 install -e git+https://github.com/cajal/pynmf
+```
