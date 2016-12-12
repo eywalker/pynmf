@@ -9,10 +9,10 @@ long_description = "Non-negativ matrix factorization algorithms for spike/mask i
 
 setup(
     name='pynmf',
-    version='0.1.0.',
+    version='0.1.0',
     description="non-negative matrix factorization algorithms for 2-photon processing",
     long_description=long_description,
-    author='Daniel Sourdry, Fabian Sinz',
+    author='Daniel Sourdry, Fabian Sinz, Edgar Y. Walker',
     author_email='',
     license="MIT",
     url='https://github.com/cajal/pynmf',
@@ -20,9 +20,7 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     install_requires=['numpy','matplotlib','tifffile'],
     classifiers=[
-        'Development Status :: 1 - Beta',
         'Intended Audience :: Science/Research',
-        'Programming Language :: Python :: 3 :: Only',
-        'License :: OSI Approved :: MIT',
+        'Programming Language :: Python :: 3 :: Only'
     ],
 )
