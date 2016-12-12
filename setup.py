@@ -4,12 +4,12 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-long_description = "Non-negativ matrix factorization algorithms for spike/mask inference on 2-photon recordings."
+long_description = "Non-negative matrix factorization algorithms for spike/mask inference on 2-photon recordings."
 
 
 setup(
     name='pynmf',
-    version='0.1.0',
+    version='0.1.1rc0',
     description="non-negative matrix factorization algorithms for 2-photon processing",
     long_description=long_description,
     author='Daniel Sourdry, Fabian Sinz, Edgar Y. Walker',
