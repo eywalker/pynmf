@@ -5,6 +5,9 @@
 
 Non-negative matrix factorization algorithms for spike/mask inference on 2-photon recordings.
 
+## Caution
+The library is currently in alpha state and under active development. Use with caution!
+
 ## Installation
 You can install the latest stable release using `pip3`:
 
